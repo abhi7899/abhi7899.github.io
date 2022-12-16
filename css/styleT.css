@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../css/images/technology_bg.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* position: static; */
+    /* overflow: hidden; */
+}
+
+
+/* Navbar */
+
+.navbar ul{
+    margin-top: 30px;
+}
+
+.element{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.element li a {
+    text-decoration: none;
+    color : white;
+}
+
+.element li {
+    background: rgb(170, 171, 207,0.1);
+    padding: 22px;
+    padding-left: 55px;
+}
+
+.head{
+    display: inline-block;
+    list-style: none;
+    width: 29%;
+    position: absolute;
+    left: 165px;
+    top: 65px;
+}
+
+.icon{
+    
+    list-style: none;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+.nav_bold{
+    font-weight: 700;
+    color: rgb(158, 175, 184);
+
+}
+
+
+/* space launch  */
+.launch h1{
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 124px;
+    margin-top: 53px;
+    padding-bottom: 43px;
+}
+
+.two{
+    color: gray;
+}
+
+/* numlist styles */
+
+.numList{
+    list-style: none;
+    text-decoration: none;
+        font-size: 12px;
+}
+.numList a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    border: solid 1px white;
+    line-height: 4.77;
+    border-radius: 57px;
+    padding: 21px 29px 21px;
+}
+
+
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 65px;
+}
+
+#vehicle {
+    margin-top: 23px;
+}
+
+#vehicle p{
+    margin-top: 38px;
+    line-height: 2;
+    color: gray;
+
+}
+
+#vehicle h5{
+    font-weight: 100;
+    color: gray;
+}
+#vehicle h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+#img_vehicle{
+    width: 40%;
+}
+
+
+/* spaceport */
+#spaceport {
+    margin-top: 23px;
+}
+
+#spaceport p{
+    margin-top: 38px;
+    line-height: 2;
+    color: gray;
+
+}
+
+#spaceport h5{
+    font-weight: 100;
+    color: gray;
+}
+#spaceport h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+#img_spaceport{
+    width: 40%;
+
+}
+
+
+/*space capsule */
+#capsule {
+    margin-top: 23px;
+}
+
+#capsule p{
+    margin-top: 38px;
+    line-height: 2;
+    color: gray;
+
+}
+
+#capsule h5{
+    font-weight: 100;
+    color: gray;
+}
+#capsule h1{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+#img_capsule{
+    width: 40%;
+    
+}
+
+#spaceport, #capsule{
+    display: none;
+}
+
+#img_spaceport, #img_capsule{
+    display: none;
+}

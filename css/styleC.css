@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../css/images/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: static;
+    overflow: hidden;
+}
+
+
+/* Navbar */
+
+.navbar ul{
+    margin-top: 30px;
+}
+
+.element{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.element li a {
+    text-decoration: none;
+    color : white;
+}
+
+.element li {
+    background: rgb(170, 171, 207,0.1);
+    padding: 22px;
+    padding-left: 55px;
+}
+
+.head{
+    display: inline-block;
+    list-style: none;
+    width: 29%;
+    position: absolute;
+    left: 165px;
+    top: 65px;
+}
+
+.icon{
+    
+    list-style: none;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+.nav_bold{
+    font-weight: 700;
+    color: rgb(158, 175, 184);
+
+}
+
+.meet {
+    font-size: 19px;
+    color: white;
+    font-weight: 100;
+    position: absolute;
+    margin: 122px;
+    margin-top: 75px;
+    margin-left: 166px;
+}
+
+
+._meet{
+    color: gray;
+}
+/* div style */
+
+/* #commander > *:nth-child(n+2) {
+    padding-bottom: 12px;
+    color: blue;
+} */
+
+/* COMMANDER styles */
+#commander {
+    color : gray;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    margin: 163px;
+    margin-top: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0;
+    /* display: block; */
+}
+
+#commander h1{
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 25px;
+}
+
+#commander> :first-child{
+    margin-top: 120px;
+    padding-right: 50px;
+}
+
+
+.cmdImg{
+    width: 37%;
+    /* position: relative; */
+    /* left: 280px; */
+    margin-right: -104px;
+    margin-top: -149px;
+}
+
+
+
+/* Mission Specialist */
+#spcl{
+    color : gray;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    margin: 163px;
+    margin-top: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0;
+    display: none;
+    
+    
+}
+
+#spcl h1{
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 25px;
+}
+
+.spclText {
+    margin-top: 102px;
+}
+
+.spclImg{
+    width: 31%;
+    /* position: relative; */
+    /* left: 280px; */
+    margin-right: -104px;
+    margin-top: -140px;
+}
+
+
+
+/* PILOT */
+
+#pilot{
+    color : gray;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    margin: 163px;
+    margin-top: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0;
+    display: none;
+    
+}
+
+#pilot h1{
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 25px;
+}
+
+.pilotText {
+    margin-top: 75px;
+}
+
+.pilotImg{
+    width: 37%;
+    /* position: relative; */
+    /* left: 280px; */
+    margin-right: -104px;
+    margin-top: -116px;
+}
+
+/* Engineer */
+
+
+#engnr{
+    color : gray;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    margin: 210px 247px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: none;
+    
+}
+
+#engnr h1{
+    color: #fff;
+    padding-top: 6px;
+    padding-bottom: 25px;
+}
+
+.engnrText {
+    margin-top: 93px;
+}
+
+.engnrImg{
+    width: 45%;
+    /* position: relative; */
+    /* left: 280px; */
+    margin-right: -104px;
+    margin-top: -72px;
+}
+
+
+
+
+/* next slide  */
+.next{
+    position: absolute;
+    top: 535px;
+}
+.nxt {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-right: 673px;
+    flex-direction: column;
+    margin-left: 169px;
+    cursor: pointer;
+}
+
+.next ul{
+    margin-top: -96px;
+}
+
+.next li{
+    line-height: 2;
+}
+
+/* .nxt li a{
+    border-radius: 112px;
+    background-color: gray;
+    padding-right: 6px;
+    height: 12px;
+    margin-right: 31px;
+    margin-top: -76px;
+    padding-right: 10px;
+    padding-left: 8px;
+} */
+
+.nxt li a{
+    margin-right: 31px;
+    margin-top: -76px;
+    color: gray;
+}
+
+
+
+
+
+#spcl, #pilot, #engnr{
+    display: none;
+}

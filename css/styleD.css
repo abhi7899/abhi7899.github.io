@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../css/images/destination_bg.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma,sans-serif;
+}
+
+                                              /*  NAVBAR STYLES  */
+
+
+.navbar ul{
+    margin-top: 30px;
+}
+
+.element{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.element li a {
+    text-decoration: none;
+    color : white;
+}
+
+.element li {
+    background: rgb(170, 171, 207,0.1);
+    padding: 22px;
+    padding-left: 55px;
+}
+
+.head{
+    display: inline-block;
+    list-style: none;
+    width: 29%;
+    position: absolute;
+    left: 165px;
+    top: 65px;
+}
+
+.icon{
+    
+    list-style: none;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+.nav_bold{
+    font-weight: 700;
+    color: rgb(158, 175, 184);
+
+}
+
+
+/* Heading part */
+
+                 /* Pick ur choice style */
+.pickUp{
+    display: inline-block;
+    margin-left: 124px;
+    margin-top: 53px;
+    padding-bottom: 43px;
+}
+
+
+
+                /* Planets heading styles  */
+.planets {
+    display: inline-block;
+    margin-left: 74px;
+}
+
+.planets ul{
+    display: flex;
+    /* justify-content: flex-end; */
+    list-style: none;
+    gap: 77px;
+    margin-left: 218px;
+}
+
+.planets li a{
+    text-decoration: none;
+    color: rgb(103, 97, 97);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.planets li a:target{
+    color: white;
+}
+
+                   /* Planets Content styles */
+
+#mars, #europa, #titan{
+    display: none;  
+}
+
+/* #moon:target {
+    display: block;
+    color: white;
+    
+}
+#mars:target{
+    display: block;
+    
+}
+#europa:target{
+    display: block;
+    
+}
+#titan:target{
+    display: block;
+    
+} */
+
+
+
+
+
+.sec-2 img{
+    width: 71%;
+    margin-left: 105px;
+}
+
+.content { 
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+    text-align: left;
+    margin-left: 202px;
+}
+
+.content h1{
+    font-size: 57px;
+    font-family: Verdana, Geneva, Tahoma,sans-serif;
+    font-weight: lighter;
+}
+
+
+.content p{
+    line-height: 2;
+    padding-top: 20px;
+    color: rgb(170, 171, 207);
+}
+
+.content hr{
+    margin-top: 25px;
+
+}
+
+.div_flex{
+    display: flex;
+}
+
+
+.avg_Est{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sec-2{
+    margin-top: 12px;
+}
+
+
+.avg_head{
+    color: rgb(170, 171, 207);
+    font-weight: lighter;
+    
+}
+
+
+.list:target {
+    text-decoration: underline;
+}
+
+
+.list{
+    cursor: pointer;
+}
+
+#list1{
+    color: white;
+    text-decoration: underline;
+}

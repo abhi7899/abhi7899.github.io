@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../css/images/desktop-bg.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma,sans-serif;
+}
+
+                                              /*  NAVBAR STYLES  */
+
+
+.navbar ul{
+    margin-top: 30px;
+}
+
+.element{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.element li a {
+    text-decoration: none;
+    color : white;
+}
+
+.element li {
+    background: rgb(170, 171, 207,0.1);
+    padding: 22px;
+    padding-left: 55px;
+}
+
+.head{
+    display: inline-block;
+    list-style: none;
+    width: 29%;
+    position: absolute;
+    left: 165px;
+    top: 65px;
+}
+
+.icon{
+    
+    list-style: none;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+
+.nav_bold{
+    font-weight: 700;
+    color: rgb(158, 175, 184);
+
+}
+
+
+
+/* Main Text part styles */
+
+.main {
+    padding: 188px;
+    color: grey;
+    padding-right: 75px;
+    padding-bottom: 0;
+}
+
+.main h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-size: 40px;
+
+}
+
+.main h1 {
+    font-size: 130px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 100;
+
+}
+
+
+
+
+.sec-1 {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    margin-left: -245px;
+    justify-content: space-evenly;
+}
+
+                                                          /* Button styles */
+
+.explore {
+    padding-bottom: 0;
+    margin-top: 245px;
+}
+
+.explore p {
+    background-color: #ffff;
+    color: black;
+    width: 50%;
+    height: auto;
+}
+
+.explore button {
+    border-radius: 160px;
+    border-style: none;
+    width: 87%;
+    padding: 80px;
+    padding-left: 55px;
+    padding-right: 96px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 46px;
+    cursor: pointer;
+    margin-top: -57px;
+}
+
+.explore button a {
+    text-decoration: none;
+    color: black;
+}
